@@ -1,5 +1,5 @@
 public interface Filter {
-    public boolean apply(String str);
+    boolean apply(String str);
 }
 
  class BeginStringFilter implements Filter {
